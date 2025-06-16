@@ -3,10 +3,10 @@ import smtplib
 from email.message import EmailMessage
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key'
+app.secret_key = 'your_secret_key' # Ignore
 
-SENDER_EMAIL = 'sidharthravi2005@gmail.com'
-APP_PASSWORD = 'lddy mpux ueej vaif'
+SENDER_EMAIL = 'your_gmail@gmail.com'
+APP_PASSWORD = 'lddy mpux ueej vaif' # Whatever you want it to be
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
