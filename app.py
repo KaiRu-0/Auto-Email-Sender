@@ -6,7 +6,7 @@ app = Flask(__name__)
 app.secret_key = 'your_secret_key' # Ignore
 
 SENDER_EMAIL = 'your_gmail@gmail.com'
-APP_PASSWORD = 'lddy mpux ueej vaif' # Whatever you want it to be
+APP_PASSWORD = 'your_app_password' # make an app password from google dummy
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
